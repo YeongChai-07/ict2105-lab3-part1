@@ -1,0 +1,2 @@
+C:\Users\User\AndroidStudioProjects\Lab 3\PermissionsLab\app\build\intermediates\classes\debug
+C:\Users\User\AndroidStudioProjects\Lab 3\PermissionsLab\app\build\intermediates\pre-dexed\debug\support-v4-18.0.0-3e68a47970141503bc691a6225af5ecbbfce5c5a.jar
