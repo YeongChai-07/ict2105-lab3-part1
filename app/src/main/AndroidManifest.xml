@@ -35,6 +35,10 @@
         </activity>
 
         <!--  TODO - add the ConverterActivity here? -->
+        <activity
+            android:name="course.labs.permissionsapp.ConverterActivity"
+            android:label="@string/title_main">
+        </activity>
 
     </application>
 
