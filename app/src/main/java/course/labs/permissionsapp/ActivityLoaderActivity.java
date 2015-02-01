@@ -57,7 +57,8 @@ public class ActivityLoaderActivity extends Activity {
         Log.i(TAG, "startConverterActivity()");
 
         // TODO - Start the ConverterActivity
-
+        Intent to_ConverterActivity = new Intent(this, ConverterActivity.class);
+        startActivity(to_ConverterActivity);
 
 
     }
