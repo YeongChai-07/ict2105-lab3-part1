@@ -12,5 +12,11 @@
     <string name="title_activity_customization">Customization</string>
     <string name="cust_button1">Start Dangerous Activity</string>
     <string name="cust_message">This button will load a Dangerous Level activity</string>
+    <string name="TemperatureConverter_Header">Temperature Converter</string>
+    <string name="editText_TemperatureToolTip">Enter temperature here</string>
+    <string name="radio_ToFahrenheit">to Fahrenheit</string>
+    <string name="radio_ToCelsius">to Celsius</string>
+    <string name="btn_ConvertTemperature">Convert</string>
+    <string name="btn_ClearTemperature">Clear</string>
 
 </resources>
