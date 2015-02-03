@@ -61,7 +61,6 @@ public class ConverterActivity extends Activity {
                     if(mRadioGroup_Choice.getCheckedRadioButtonId() == R.id.radioBtn_ToFahrenheit)
                     {
                         //Process the conversion to Fahrenheit
-
                         convertedTemperature = convertToFahrenheit(in_Temperature);
                     }
                     else if(mRadioGroup_Choice.getCheckedRadioButtonId() == R.id.radioBtn_ToCelsius)
@@ -119,14 +118,16 @@ public class ConverterActivity extends Activity {
     // Function for displaying the conversion result
     private void displayResult(String inputTemperature, float convertedTemperature, boolean isInput_Fahrenheit)
     {
+        // If user inputs the temperature in Celsius, include the converted temperature (Fahrenheit)
+        // at the back of the output string
+        mTextView_Result.setText(inputTemperature + CELSIUS_STATEMENT_CONST + convertedTemperature + FAHRENHEIT_STATEMENT_CONST);
+
+        // Else, include the converted temperature (Celsius) in front of the output string
         if(isInput_Fahrenheit)
         {
-            // Include the converted temperature (Celsius) in front of the output string
+
             mTextView_Result.setText(convertedTemperature + CELSIUS_STATEMENT_CONST + inputTemperature + FAHRENHEIT_STATEMENT_CONST);
         }
-
-        // Include the converted temperature (Fahrenheit) at the back of the output string
-        mTextView_Result.setText(inputTemperature + CELSIUS_STATEMENT_CONST + convertedTemperature + FAHRENHEIT_STATEMENT_CONST);
     }
 
 }
