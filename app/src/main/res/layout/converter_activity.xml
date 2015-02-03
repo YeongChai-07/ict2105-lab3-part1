@@ -12,12 +12,15 @@
         android:textSize="@dimen/dimen_Density"
         android:layout_marginBottom = "@dimen/dimen_Density"/>
     <EditText
+        android:id="@+id/editText_InputTemperature"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint= "@string/editText_TemperatureToolTip"/>
     <RadioGroup
+        android:id="@+id/radioGroup_ConversionChoice"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:checkedButton="@+id/radioBtn_ToFahrenheit">
 
         <RadioButton
             android:id="@+id/radioBtn_ToFahrenheit"
